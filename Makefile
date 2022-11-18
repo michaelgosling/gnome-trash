@@ -1,5 +1,5 @@
 EXT_NAME = gnome-trash
-UUID = $(EXT_NAME)@b00f.github.io
+UUID = $(EXT_NAME)@michaelgosling.github.io
 BUNDLE = $(UUID).shell-extension.zip
 POT_FILE = ./po/$(EXT_NAME).pot
 SOURCES = src/*.ts src/*.css

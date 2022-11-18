@@ -2,12 +2,13 @@
   "shell-version": [
     "40",
     "41",
-    "42"
+    "42",
+		"43"
   ],
-  "version": 2,
+  "version": 20221118,
   "gettext-domain" : "gnome-trash",
-  "uuid": "gnome-trash@b00f.github.io",
+  "uuid": "gnome-trash@michaelgosling.github.io",
   "name": "Gnome Trash",
   "description": "A gnome shell extension to manage your home trash. You can manage trash items from the panel and open or empty the trash.",
-  "url": "https://github.com/b00f/gnome-trash"
+  "url": "https://github.com/michaelgosling/gnome-trash"
 }

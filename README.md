@@ -1,4 +1,4 @@
-# Gnome Trash
+# Gnome Trash (Forked from b00f/gnome-trash)
 
 A gnome shell extension to manage your **Gnome Trash**.
 
@@ -6,17 +6,16 @@ It allows you to manage the trash items and empty or open the Trash folder. It l
 
 Note: This extension is only shows items under home trash folder(`~/.local/share/Trash`).
 
+Forked and modified to allow gnome-shell 43.
+
 ## Installation
-
-To install the most recent official release: Visit Gnome Trash on the [Official GNOME Extensions](https://extensions.gnome.org/extension/4410/gnome-trash/) page.
-
 ### From source code
 
 Before compiling the code make sure you have installed Typescript.
 
 A `Makefile` is included. Then all you have to do is run the command below
 ```
-git clone https://github.com/b00f/gnome-trash.git
+git clone https://github.com/michaelgosing/gnome-trash.git
 cd gnome-trash
 make install
 ```
@@ -26,11 +25,4 @@ It automatically installs the extension and restart the gnome-shell.
 
 You can run `make test_wayland` to test this extension on [wayland](https://wayland.freedesktop.org/).
 
-## How to contribute
-
-If you are going to help me make this extension better, you are welcome!
-To start, check the code; there are some `TODO` comments. You might be interested to work on them.
-
-You can also [add new translation](https://wiki.gnome.org/Attic/GnomeShell/Extensions/Writing#Extension_Utils) by this command:
-`msginit -i ./po/gnome-trash.pot -l <YOUR-LANG-ID>`.
 
